@@ -13,6 +13,7 @@
 		FE64FBA625DD6632005D1D6F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE64FBA525DD6632005D1D6F /* Preview Assets.xcassets */; };
 		FE64FBB125DD6632005D1D6F /* Travis_CITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE64FBB025DD6632005D1D6F /* Travis_CITests.swift */; };
 		FE64FBBC25DD6632005D1D6F /* Travis_CIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE64FBBB25DD6632005D1D6F /* Travis_CIUITests.swift */; };
+		FE64FBDF25DD6A78005D1D6F /* CIServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE64FBDE25DD6A78005D1D6F /* CIServer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		FE64FBB725DD6632005D1D6F /* Travis CIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Travis CIUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE64FBBB25DD6632005D1D6F /* Travis_CIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Travis_CIUITests.swift; sourceTree = "<group>"; };
 		FE64FBBD25DD6632005D1D6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE64FBDE25DD6A78005D1D6F /* CIServer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CIServer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +97,7 @@
 		FE64FB9D25DD6630005D1D6F /* Travis CI */ = {
 			isa = PBXGroup;
 			children = (
+				FE64FBDD25DD6A5C005D1D6F /* Models */,
 				FE64FB9E25DD6630005D1D6F /* Travis_CIApp.swift */,
 				FE64FBA025DD6630005D1D6F /* ContentView.swift */,
 				FE64FBA225DD6632005D1D6F /* Assets.xcassets */,
@@ -128,6 +131,14 @@
 				FE64FBBD25DD6632005D1D6F /* Info.plist */,
 			);
 			path = "Travis CIUITests";
+			sourceTree = "<group>";
+		};
+		FE64FBDD25DD6A5C005D1D6F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FE64FBDE25DD6A78005D1D6F /* CIServer.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -194,6 +205,7 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1240;
 				LastUpgradeCheck = 1240;
+				ORGANIZATIONNAME = "Amit Khairnar";
 				TargetAttributes = {
 					FE64FB9A25DD6630005D1D6F = {
 						CreatedOnToolsVersion = 12.4;
@@ -259,6 +271,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE64FBDF25DD6A78005D1D6F /* CIServer.swift in Sources */,
 				FE64FBA125DD6630005D1D6F /* ContentView.swift in Sources */,
 				FE64FB9F25DD6630005D1D6F /* Travis_CIApp.swift in Sources */,
 			);
