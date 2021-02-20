@@ -14,6 +14,10 @@
 		FE64FBB125DD6632005D1D6F /* Travis_CITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE64FBB025DD6632005D1D6F /* Travis_CITests.swift */; };
 		FE64FBBC25DD6632005D1D6F /* Travis_CIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE64FBBB25DD6632005D1D6F /* Travis_CIUITests.swift */; };
 		FE64FBDF25DD6A78005D1D6F /* CIServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE64FBDE25DD6A78005D1D6F /* CIServer.swift */; };
+		FE76D35125E11E3D00F13E21 /* ServerSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE76D35025E11E3D00F13E21 /* ServerSelectionView.swift */; };
+		FE76D35625E11E7100F13E21 /* ServerButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE76D35525E11E7100F13E21 /* ServerButton.swift */; };
+		FE76D35B25E11EC900F13E21 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE76D35A25E11EC900F13E21 /* LoginView.swift */; };
+		FE76D36025E11F0D00F13E21 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE76D35F25E11F0D00F13E21 /* Message.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,10 @@
 		FE64FBBB25DD6632005D1D6F /* Travis_CIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Travis_CIUITests.swift; sourceTree = "<group>"; };
 		FE64FBBD25DD6632005D1D6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FE64FBDE25DD6A78005D1D6F /* CIServer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CIServer.swift; sourceTree = "<group>"; };
+		FE76D35025E11E3D00F13E21 /* ServerSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerSelectionView.swift; sourceTree = "<group>"; };
+		FE76D35525E11E7100F13E21 /* ServerButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerButton.swift; sourceTree = "<group>"; };
+		FE76D35A25E11EC900F13E21 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		FE76D35F25E11F0D00F13E21 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +105,7 @@
 		FE64FB9D25DD6630005D1D6F /* Travis CI */ = {
 			isa = PBXGroup;
 			children = (
+				FE76D34F25E11E0300F13E21 /* Views */,
 				FE64FBDD25DD6A5C005D1D6F /* Models */,
 				FE64FB9E25DD6630005D1D6F /* Travis_CIApp.swift */,
 				FE64FBA025DD6630005D1D6F /* ContentView.swift */,
@@ -137,8 +146,19 @@
 			isa = PBXGroup;
 			children = (
 				FE64FBDE25DD6A78005D1D6F /* CIServer.swift */,
+				FE76D35F25E11F0D00F13E21 /* Message.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		FE76D34F25E11E0300F13E21 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FE76D35025E11E3D00F13E21 /* ServerSelectionView.swift */,
+				FE76D35525E11E7100F13E21 /* ServerButton.swift */,
+				FE76D35A25E11EC900F13E21 /* LoginView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -271,9 +291,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE76D35B25E11EC900F13E21 /* LoginView.swift in Sources */,
+				FE76D35125E11E3D00F13E21 /* ServerSelectionView.swift in Sources */,
+				FE76D35625E11E7100F13E21 /* ServerButton.swift in Sources */,
 				FE64FBDF25DD6A78005D1D6F /* CIServer.swift in Sources */,
 				FE64FBA125DD6630005D1D6F /* ContentView.swift in Sources */,
 				FE64FB9F25DD6630005D1D6F /* Travis_CIApp.swift in Sources */,
+				FE76D36025E11F0D00F13E21 /* Message.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
