@@ -11,12 +11,12 @@ import SwiftUI
 struct LoginView: View {
     @Environment(\.presentationMode) var presentation
     @State var showModal = false
-    @State private var accessToken = ""
     @State private var message: Message? = nil
+    @Binding var accessToken: String
+    @Binding var isShowingHomePage: Bool
     
     let server: CIServer
     let buttonID: String
-    let namespace: Namespace.ID
     
     var body: some View {
         NavigationView{
@@ -28,7 +28,6 @@ struct LoginView: View {
                             .aspectRatio(contentMode: .fit)
                             .frame(maxWidth: 60.0, maxHeight: 60.0)
                             .padding(.vertical, 20.0)
-                            .matchedGeometryEffect(id: buttonID, in: namespace)
                         Text(server.title)
                             .font(.title3).bold()
                         Text(server.url)
@@ -50,6 +49,12 @@ struct LoginView: View {
                             self.message = Message(text: "Please enter correct access token!")
                         } else{
                             // do login process
+                            // Use the token and check user exists by calling the api
+                            
+                            // Dismiss the sheet
+                            self.presentation.wrappedValue.dismiss()
+                            
+                            isShowingHomePage = true
                         }
                     } label:{
                         Text("Login")
@@ -96,9 +101,8 @@ struct LoginView: View {
 }
 
 struct LoginView_Previews: PreviewProvider {
-    @Namespace static var namespace
     static var server = CIServer(title: "Org Server", url: "https://travis-ci.org", image: Image(uiImage: #imageLiteral(resourceName: "mascot2")))
     static var previews: some View {
-        LoginView(server: server, buttonID: "com", namespace: namespace)
+        LoginView(accessToken: .constant(""), isShowingHomePage: .constant(false), server: server, buttonID: "com")
     }
 }

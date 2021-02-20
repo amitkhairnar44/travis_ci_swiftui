@@ -7,6 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FE2FDF0225E15D3C00F6DC9D /* ActiveReposDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE2FDF0125E15D3C00F6DC9D /* ActiveReposDataSource.swift */; };
+		FE2FDF0A25E162A400F6DC9D /* BuildLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE2FDF0925E162A400F6DC9D /* BuildLog.swift */; };
+		FE2FDF0F25E1631800F6DC9D /* BuildLogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE2FDF0E25E1631800F6DC9D /* BuildLogView.swift */; };
+		FE2FDF1425E163A700F6DC9D /* BuildLogDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE2FDF1325E163A700F6DC9D /* BuildLogDataSource.swift */; };
+		FE5FE5A425E141010059CDD6 /* ActiveReposView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE5FE5A325E141010059CDD6 /* ActiveReposView.swift */; };
+		FE5FE5AE25E141500059CDD6 /* Repo.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE5FE5AD25E141500059CDD6 /* Repo.swift */; };
+		FE5FE5B325E141900059CDD6 /* BuildsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE5FE5B225E141900059CDD6 /* BuildsListView.swift */; };
+		FE5FE5B925E141C80059CDD6 /* BuildsDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE5FE5B825E141C80059CDD6 /* BuildsDataSource.swift */; };
+		FE5FE5BE25E141FD0059CDD6 /* Build.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE5FE5BD25E141FD0059CDD6 /* Build.swift */; };
+		FE5FE5C325E1421C0059CDD6 /* Tag.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE5FE5C225E1421C0059CDD6 /* Tag.swift */; };
+		FE5FE5C825E142380059CDD6 /* Branch.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE5FE5C725E142380059CDD6 /* Branch.swift */; };
+		FE5FE5CD25E142900059CDD6 /* BuildDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE5FE5CC25E142900059CDD6 /* BuildDetails.swift */; };
+		FE5FE5D225E142C50059CDD6 /* UserTileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE5FE5D125E142C50059CDD6 /* UserTileView.swift */; };
+		FE5FE5D725E142E30059CDD6 /* UserDataFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE5FE5D625E142E30059CDD6 /* UserDataFetcher.swift */; };
+		FE5FE5DC25E142FF0059CDD6 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE5FE5DB25E142FF0059CDD6 /* User.swift */; };
+		FE5FE5E125E143320059CDD6 /* AsyncImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE5FE5E025E143320059CDD6 /* AsyncImage.swift */; };
+		FE5FE5E725E143810059CDD6 /* BuildStateHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE5FE5E625E143810059CDD6 /* BuildStateHelper.swift */; };
 		FE64FB9F25DD6630005D1D6F /* Travis_CIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE64FB9E25DD6630005D1D6F /* Travis_CIApp.swift */; };
 		FE64FBA125DD6630005D1D6F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE64FBA025DD6630005D1D6F /* ContentView.swift */; };
 		FE64FBA325DD6632005D1D6F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE64FBA225DD6632005D1D6F /* Assets.xcassets */; };
@@ -18,6 +35,7 @@
 		FE76D35625E11E7100F13E21 /* ServerButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE76D35525E11E7100F13E21 /* ServerButton.swift */; };
 		FE76D35B25E11EC900F13E21 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE76D35A25E11EC900F13E21 /* LoginView.swift */; };
 		FE76D36025E11F0D00F13E21 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE76D35F25E11F0D00F13E21 /* Message.swift */; };
+		FE76D36525E12A7D00F13E21 /* HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE76D36425E12A7D00F13E21 /* HomePage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +56,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FE2FDF0125E15D3C00F6DC9D /* ActiveReposDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActiveReposDataSource.swift; sourceTree = "<group>"; };
+		FE2FDF0925E162A400F6DC9D /* BuildLog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuildLog.swift; sourceTree = "<group>"; };
+		FE2FDF0E25E1631800F6DC9D /* BuildLogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuildLogView.swift; sourceTree = "<group>"; };
+		FE2FDF1325E163A700F6DC9D /* BuildLogDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuildLogDataSource.swift; sourceTree = "<group>"; };
+		FE5FE5A325E141010059CDD6 /* ActiveReposView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActiveReposView.swift; sourceTree = "<group>"; };
+		FE5FE5AD25E141500059CDD6 /* Repo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repo.swift; sourceTree = "<group>"; };
+		FE5FE5B225E141900059CDD6 /* BuildsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuildsListView.swift; sourceTree = "<group>"; };
+		FE5FE5B825E141C80059CDD6 /* BuildsDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuildsDataSource.swift; sourceTree = "<group>"; };
+		FE5FE5BD25E141FD0059CDD6 /* Build.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Build.swift; sourceTree = "<group>"; };
+		FE5FE5C225E1421C0059CDD6 /* Tag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tag.swift; sourceTree = "<group>"; };
+		FE5FE5C725E142380059CDD6 /* Branch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Branch.swift; sourceTree = "<group>"; };
+		FE5FE5CC25E142900059CDD6 /* BuildDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuildDetails.swift; sourceTree = "<group>"; };
+		FE5FE5D125E142C50059CDD6 /* UserTileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTileView.swift; sourceTree = "<group>"; };
+		FE5FE5D625E142E30059CDD6 /* UserDataFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDataFetcher.swift; sourceTree = "<group>"; };
+		FE5FE5DB25E142FF0059CDD6 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		FE5FE5E025E143320059CDD6 /* AsyncImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncImage.swift; sourceTree = "<group>"; };
+		FE5FE5E625E143810059CDD6 /* BuildStateHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuildStateHelper.swift; sourceTree = "<group>"; };
 		FE64FB9B25DD6630005D1D6F /* Travis CI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Travis CI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE64FB9E25DD6630005D1D6F /* Travis_CIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Travis_CIApp.swift; sourceTree = "<group>"; };
 		FE64FBA025DD6630005D1D6F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -55,6 +90,7 @@
 		FE76D35525E11E7100F13E21 /* ServerButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerButton.swift; sourceTree = "<group>"; };
 		FE76D35A25E11EC900F13E21 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		FE76D35F25E11F0D00F13E21 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		FE76D36425E12A7D00F13E21 /* HomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +118,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FE5FE5B725E1419F0059CDD6 /* DataSource */ = {
+			isa = PBXGroup;
+			children = (
+				FE5FE5B825E141C80059CDD6 /* BuildsDataSource.swift */,
+				FE5FE5D625E142E30059CDD6 /* UserDataFetcher.swift */,
+				FE2FDF0125E15D3C00F6DC9D /* ActiveReposDataSource.swift */,
+				FE2FDF1325E163A700F6DC9D /* BuildLogDataSource.swift */,
+			);
+			path = DataSource;
+			sourceTree = "<group>";
+		};
+		FE5FE5E525E143710059CDD6 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				FE5FE5E625E143810059CDD6 /* BuildStateHelper.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
 		FE64FB9225DD6630005D1D6F = {
 			isa = PBXGroup;
 			children = (
@@ -105,6 +160,8 @@
 		FE64FB9D25DD6630005D1D6F /* Travis CI */ = {
 			isa = PBXGroup;
 			children = (
+				FE5FE5E525E143710059CDD6 /* Helpers */,
+				FE5FE5B725E1419F0059CDD6 /* DataSource */,
 				FE76D34F25E11E0300F13E21 /* Views */,
 				FE64FBDD25DD6A5C005D1D6F /* Models */,
 				FE64FB9E25DD6630005D1D6F /* Travis_CIApp.swift */,
@@ -112,6 +169,7 @@
 				FE64FBA225DD6632005D1D6F /* Assets.xcassets */,
 				FE64FBA725DD6632005D1D6F /* Info.plist */,
 				FE64FBA425DD6632005D1D6F /* Preview Content */,
+				FE5FE5E025E143320059CDD6 /* AsyncImage.swift */,
 			);
 			path = "Travis CI";
 			sourceTree = "<group>";
@@ -147,6 +205,12 @@
 			children = (
 				FE64FBDE25DD6A78005D1D6F /* CIServer.swift */,
 				FE76D35F25E11F0D00F13E21 /* Message.swift */,
+				FE5FE5AD25E141500059CDD6 /* Repo.swift */,
+				FE5FE5BD25E141FD0059CDD6 /* Build.swift */,
+				FE5FE5C225E1421C0059CDD6 /* Tag.swift */,
+				FE5FE5C725E142380059CDD6 /* Branch.swift */,
+				FE5FE5DB25E142FF0059CDD6 /* User.swift */,
+				FE2FDF0925E162A400F6DC9D /* BuildLog.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -157,6 +221,12 @@
 				FE76D35025E11E3D00F13E21 /* ServerSelectionView.swift */,
 				FE76D35525E11E7100F13E21 /* ServerButton.swift */,
 				FE76D35A25E11EC900F13E21 /* LoginView.swift */,
+				FE76D36425E12A7D00F13E21 /* HomePage.swift */,
+				FE5FE5A325E141010059CDD6 /* ActiveReposView.swift */,
+				FE5FE5B225E141900059CDD6 /* BuildsListView.swift */,
+				FE5FE5CC25E142900059CDD6 /* BuildDetails.swift */,
+				FE5FE5D125E142C50059CDD6 /* UserTileView.swift */,
+				FE2FDF0E25E1631800F6DC9D /* BuildLogView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -291,13 +361,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE5FE5E725E143810059CDD6 /* BuildStateHelper.swift in Sources */,
+				FE5FE5AE25E141500059CDD6 /* Repo.swift in Sources */,
+				FE5FE5B325E141900059CDD6 /* BuildsListView.swift in Sources */,
+				FE5FE5B925E141C80059CDD6 /* BuildsDataSource.swift in Sources */,
+				FE2FDF0225E15D3C00F6DC9D /* ActiveReposDataSource.swift in Sources */,
 				FE76D35B25E11EC900F13E21 /* LoginView.swift in Sources */,
 				FE76D35125E11E3D00F13E21 /* ServerSelectionView.swift in Sources */,
+				FE5FE5C825E142380059CDD6 /* Branch.swift in Sources */,
 				FE76D35625E11E7100F13E21 /* ServerButton.swift in Sources */,
+				FE5FE5E125E143320059CDD6 /* AsyncImage.swift in Sources */,
+				FE5FE5D725E142E30059CDD6 /* UserDataFetcher.swift in Sources */,
+				FE5FE5DC25E142FF0059CDD6 /* User.swift in Sources */,
 				FE64FBDF25DD6A78005D1D6F /* CIServer.swift in Sources */,
 				FE64FBA125DD6630005D1D6F /* ContentView.swift in Sources */,
+				FE5FE5A425E141010059CDD6 /* ActiveReposView.swift in Sources */,
+				FE2FDF1425E163A700F6DC9D /* BuildLogDataSource.swift in Sources */,
+				FE2FDF0A25E162A400F6DC9D /* BuildLog.swift in Sources */,
 				FE64FB9F25DD6630005D1D6F /* Travis_CIApp.swift in Sources */,
+				FE5FE5CD25E142900059CDD6 /* BuildDetails.swift in Sources */,
+				FE2FDF0F25E1631800F6DC9D /* BuildLogView.swift in Sources */,
+				FE5FE5D225E142C50059CDD6 /* UserTileView.swift in Sources */,
 				FE76D36025E11F0D00F13E21 /* Message.swift in Sources */,
+				FE5FE5C325E1421C0059CDD6 /* Tag.swift in Sources */,
+				FE5FE5BE25E141FD0059CDD6 /* Build.swift in Sources */,
+				FE76D36525E12A7D00F13E21 /* HomePage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

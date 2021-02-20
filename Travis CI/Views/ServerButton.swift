@@ -13,7 +13,8 @@ struct ServerButton: View {
     let server: CIServer
     let buttonID: String
     let buttonTitle: String
-    let namespace: Namespace.ID
+    @Binding var isShowingHomePage: Bool
+    @Binding var accessToken: String
     
     var body: some View {
         Button {
@@ -24,7 +25,6 @@ struct ServerButton: View {
                     .resizable()
                     .aspectRatio(contentMode: .fit)
                     .frame(maxWidth: 60.0, maxHeight: 60.0)
-                    .matchedGeometryEffect(id: buttonID, in: namespace)
                 
                 Text(buttonTitle)
                     .font(.title3)
@@ -37,7 +37,7 @@ struct ServerButton: View {
         }.sheet(isPresented: $showModal, onDismiss: {
             //print(self.showModal)
         }) {
-            LoginView(server: server, buttonID: buttonID, namespace: namespace)
+            LoginView(accessToken: $accessToken, isShowingHomePage: $isShowingHomePage, server: server, buttonID: buttonID)
         }
     }
 }
@@ -45,6 +45,6 @@ struct ServerButton: View {
 struct ServerButton_Previews: PreviewProvider {
     @Namespace static var namespace
     static var previews: some View {
-        ServerButton(showModal: true, server: CIServer(title: "Com Server", url: "https://travis-ci.com", image: Image(uiImage: #imageLiteral(resourceName: "mascot2"))), buttonID: "com", buttonTitle: "Travis CI (.com)", namespace: namespace)
+        ServerButton(showModal: true, server: CIServer(title: "Com Server", url: "https://travis-ci.com", image: Image(uiImage: #imageLiteral(resourceName: "mascot2"))), buttonID: "com", buttonTitle: "Travis CI (.com)", isShowingHomePage: .constant(false), accessToken: .constant(""))
     }
 }
